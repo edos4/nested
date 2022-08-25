@@ -3,6 +3,10 @@ require "test_helper"
 class ArticlesControllerTest < ActionDispatch::IntegrationTest
   setup do
     @article = articles(:one)
+
+    get '/users/sign_in'
+    sign_in users(:user_001)
+    post user_session_url
   end
 
   test "should get index" do
