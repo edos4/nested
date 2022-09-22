@@ -1,0 +1,9 @@
+development:
+  cloud_name: "dvsa17ep4"
+  api_key: "517477318176841"
+  api_secret: "CPfKhCcXIFS4jT3CnubV_t6hxK0"
+
+production:
+  cloud_name: "dvsa17ep4"
+  api_key: "517477318176841"
+  api_secret: "CPfKhCcXIFS4jT3CnubV_t6hxK0"
